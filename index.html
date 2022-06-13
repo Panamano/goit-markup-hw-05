@@ -69,7 +69,7 @@
                 </h1>
               </li>
               <li class="guzik">
-                <button class="bg-button">Zamów usługę</button>
+                <button class="bg-button" data-modal-open>Zamów usługę</button>
               </li>
             </ul>
           </div>
@@ -434,7 +434,15 @@
         </div>
       </div>
     </footer>
-
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <svg class="close-btn" width="11px" height="11px">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
