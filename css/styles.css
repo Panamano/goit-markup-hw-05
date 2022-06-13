@@ -182,13 +182,11 @@ header {
 }
 .bg-button {
   padding: 10px 41px 10px 42px;
-  /* display: block; */
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  /* display: flex; */
   margin: 0 auto;
   align-items: center;
   text-align: center;
